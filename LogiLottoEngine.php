@@ -31,7 +31,7 @@
             $db->addTransaction($betID, $drawID); // moze da bude transakcija i ako samo isplacuje novac
         }
         
-        sleep(60); 
+        sleep(180); 
     } // beskonacna petlja
     
 
